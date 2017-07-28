@@ -4,6 +4,7 @@
 
 var Tween = require('tween');
 var raf = require('raf');
+raf = raf.bind(window);
 
 /**
  * Expose `scrollTo`.
